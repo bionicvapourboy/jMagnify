@@ -1,4 +1,8 @@
-jMagnify
+jMagnify - jQuery Plugin
 ========
 
-jQuery plugin that shows image at original size while mouse is overing.
+Shows image at original size while mouse is overing.
+
+Usage:
+
+$('.imgClass').jMagnify();
