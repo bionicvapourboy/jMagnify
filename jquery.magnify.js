@@ -45,6 +45,8 @@
 					if(_outerWidth > e.pageX && e.pageX+_outerWidth > _scrollLeft + _winWidth){
 						if(e.pageX >= _winWidth/2){
 							_appendedItem.css('left', _winWidth-_outerWidth);
+						}else{
+							_appendedItem.css('left', 0);
 						}	
 					}
 				}else{
