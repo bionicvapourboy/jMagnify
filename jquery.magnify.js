@@ -28,6 +28,8 @@
 					if(_outerHeight > e.pageY && e.pageY+_outerHeight > _scrollTop + _winHeight){
 						if(e.pageY >= _winHeight/2){
 							_appendedItem.css('top', _winHeight-_outerHeight);
+						}else{
+							_appendedItem.css('top', 0);
 						}	
 					}
 				}else{
